@@ -1,0 +1,55 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+}
+.container{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    background-color: snow;
+}
+.container2{
+    width: auto;
+    height: auto;
+    padding-left: 7.5%;
+    padding-top: 10px;
+}
+#img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+h1, h4{
+    padding-left: 20px;
+}
+h1{
+    font-size: 25px;
+}
+h4{
+   color: rgb(130, 161, 173);
+}
+.button{
+    border-radius: 2px;
+    background-color: red;
+    text-align: center;
+    
+}
+.button:hover{
+    background-color: blue;
+}
+
+@media screen and (max-width:480px) {
+    h1,h4,#img2,.container{
+        width: auto;
+    }
+    .container{
+        width: auto;
+    }
+    .container2{
+       padding-left: auto;
+       height: auto;
+    }  
+}
